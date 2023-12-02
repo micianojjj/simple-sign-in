@@ -1,0 +1,67 @@
+/* rgb(35, 17, 52) */
+/* rgb(51, 28, 72) */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(35, 17, 52);
+}
+.main-container {
+  background-color: rgb(51, 28, 72);
+  width: 520px;
+  height: 535px;
+  margin: 70px auto;
+}
+
+.main-header {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding-top: 40px;
+}
+.text {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+div input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 16px;
+  padding: 15px;
+}
+.create-btn {
+  width: 80%;
+  margin: 10px auto;
+  font-size: 16px;
+  background-color: rgb(92, 150, 195);
+  color: white;
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.sign {
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 15px;
+}
+.sign-link {
+  color: rgb(92, 150, 195);
+  font-weight: 600;
+  text-decoration: none;
+}
+.create-btn:hover {
+  background-color: rgba(223, 6, 114, 0.678);
+}
